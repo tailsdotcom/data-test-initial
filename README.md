@@ -14,7 +14,7 @@ Our behavioural team want to understand what this graph shows. What can you conc
 
 ## Challenge 2: _Super secret treat_
 
-Our food team has developed a new kind super secret treat which we think all of our dogs are going to love. What we don't know is whether it should be square or round. We sent some samples to a selection of our loyal subscribers and then offered them the opportunity to buy more. The results of that test are below.
+Our food team has developed a new kind of super secret treat which we think all of our dogs are going to love. What we don't know is whether it should be square or round. We sent some samples to a selection of our loyal subscribers and then offered them the opportunity to buy more. The results of that test are below.
 
 | Month | # Dogs offered Square Treat | # Dogs who bought Square Treat  | # Dogs offered Round Treat | # Dogs who bought Round Treat  |
 | ----- |:---------------------------:|:-------------------------------:|:--------------------------:|:------------------------------:|
@@ -23,7 +23,7 @@ Our food team has developed a new kind super secret treat which we think all of 
 | May   | 300                         | 55                              | 150                        | 39
 | June  | 400                         | 75                              | 150                        | 41
 
-Construct a visual (table, graphic or chart) of your chosing to interpret these results and suggest what we should conclude from the results.
+Construct a visual (table, graphic or chart) of your choosing to interpret these results and suggest what we should conclude from the results.
 
 ## Challenge 3: _Rover the Labrador_
 
