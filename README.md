@@ -8,7 +8,7 @@ Feel free to spend as much or as little time as you'd like, however bear in mind
 
 Recently we surveyed some of the dogs in our office and threw a tennis ball, some of them chased it and some of them just rolled over. The results are in the graph below.
 
-`picture`
+![Challenge Picture](https://github.com/tailsdotcom/data-test-initial/blob/master/180810-OnlineGraph.PNG "Chase % for Office Dog Breeds")
 
 Our behavioural team want to understand what this graph shows. What can you conclude from the graph?
 
