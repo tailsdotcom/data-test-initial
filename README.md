@@ -27,7 +27,7 @@ Construct a visual (table, graphic or chart) of your chosing to interpret these 
 
 ## Challenge 3: _Rover the Labrador_
 
-One of the database technologies we use is (MySQL)[https://en.wikipedia.org/wiki/MySQL], and we quite often use (SQL)[https://en.wikipedia.org/wiki/SQL] to get at the data we need to inform decisions across the business. Below is a query that we've been using but one of the dogs has been editing the code and now we're getting an error.
+One of the database technologies we use is [MySQL](https://en.wikipedia.org/wiki/MySQL), and we quite often use [SQL](https://en.wikipedia.org/wiki/SQL) to get at the data we need to inform decisions across the business. Below is a query that we've been using but one of the dogs has been editing the code and now we're getting an error.
 
 Rover the Labrador has been in touch about his food and said he prefers chicken to beef, and would like a chicken-based blend rather than his current beef-based one. We've been looking for all of our Labradors that are called Rover, to find out what blends they're on right now, but we're getting a syntax error. Can you correct the query so that it should work?
 
