@@ -23,11 +23,15 @@ Our food team has developed a new kind of super secret treat which we think all 
 | May   | 300                         | 55                              | 150                        | 39
 | June  | 400                         | 75                              | 150                        | 41
 
-Construct a visual (table, graphic or chart) of your choosing to interpret these results and suggest what we should conclude from the results.
+Construct a visual (table, graphic or chart) of your choosing to interpret these results and suggest what we should conclude from the results. In deciding what we should conclude, you might want to think about what happened in April, and whether we have enough data to make a decision yet.
+
+*(If you're feeling rusty on how to work out whether we've seen enough data yet then check out [this excellent article on A/B testing statistics](https://conversionsciences.com/blog/ab-testing-statistics/))*
 
 ## Challenge 3: _Rover the Labrador_
 
 One of the database technologies we use is [MySQL](https://en.wikipedia.org/wiki/MySQL), and we quite often use [SQL](https://en.wikipedia.org/wiki/SQL) to get at the data we need to inform decisions across the business. Below is a query that we've been using but one of the dogs has been editing the code and now we're getting an error.
+
+*(If you're feeling rusty, then check out sections 2, 3, 4, 5 & 6 of [this tutorial](http://www.mysqltutorial.org/basic-mysql-tutorial.aspx))*
 
 Rover the Labrador has been in touch about his food and said he prefers chicken to beef, and would like a chicken-based blend rather than his current beef-based one. We've been looking for all of our Labradors that are called Rover, to find out what blends they're on right now, but we're getting a syntax error. Can you correct the query so that it should work?
 
