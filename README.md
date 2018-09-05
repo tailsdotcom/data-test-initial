@@ -58,6 +58,8 @@ WHERE dog.breed = 'Labrador'
 GROUP BY dog_name, breed, signup_date, flavour
 ```
 
+*(If you'd like something to help you work with this, you might want to use a tool like [DB Fiddle](https://www.db-fiddle.com/) to test out your SQL. You can paste the content of [this file](https://github.com/tailsdotcom/data-test-initial/blob/master/part_3_sample_ddl.sql) into the left hand pane of that tool and the query above into the right hand pane to create yourself an environment which you can test in. You'll know if you've set it up right, if you run the query above before correcting it and you get an error saying something like `You have an error in your SQL syntax`)*
+
 **Extension questions** - *these are if you want to show off your skills and are not required, so only do these if it took you less than 5 minutes to do the first part, and don't spend more than 20 minutes on them*.
 - We're interested in when customers change their favourite flavour. Write a query which will find the `flavour` and `order_date` for any blends which had a different `flavour` to the previous blend for that pet. Restrict your answer to pets with a `dog_id` less than 100.
 - Take the query you've just written and adapt it to display which flavour changes (i.e. combination of the `flavour` before the change and the `flavour` after the change) are most common.
