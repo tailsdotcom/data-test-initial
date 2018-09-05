@@ -10,7 +10,10 @@ Recently we surveyed some of the dogs in our office and threw a tennis ball, som
 
 ![Challenge Picture](https://github.com/tailsdotcom/data-test-initial/blob/master/180810-OnlineGraph.PNG "Chase % for Office Dog Breeds")
 
-Our behavioural team want to understand what this graph shows. What can you conclude from the graph?
+Our behavioural team want to understand what this graph shows. What can you conclude from the graph? Think about:
+- Who chases the ball most often?
+- What's up with chihuahuas?
+- What can we conclude about how easy it is to train different dogs? What are the risks or assumptions you've made in that conclusion.
 
 ## Challenge 2: _Super secret treat_
 
@@ -23,9 +26,14 @@ Our food team has developed a new kind of super secret treat which we think all 
 | May   | 300                         | 55                              | 150                        | 39
 | June  | 400                         | 75                              | 150                        | 41
 
-Construct a visual (table, graphic or chart) of your choosing to interpret these results and suggest what we should conclude from the results. In deciding what we should conclude, you might want to think about what happened in April, and whether we have enough data to make a decision yet.
+Construct a visual (table, graphic or chart) of your choosing to interpret these results and suggest what we should conclude from the results. Think about:
 
-*(If you're feeling rusty on how to work out whether we've seen enough data yet then check out [this excellent article on A/B testing statistics](https://conversionsciences.com/blog/ab-testing-statistics/))*
+- Do we have enough data to make a decision about which treat works best? What do you recommend we do in July and why?
+- What assumptions have you made and how would you confirm those assumptions if you needed to?
+- How would you go about working out what happened in April?
+- Waht feedback would you give the team about how they carried out this test?
+
+*(If you're feeling rusty on how to work out whether we've seen enough data yet then check out [this excellent article on A/B testing statistics](https://conversionsciences.com/blog/ab-testing-statistics/), or [this very visual calculator](https://abtestguide.com/calc/))*
 
 ## Challenge 3: _Rover the Labrador_
 
@@ -33,7 +41,7 @@ One of the database technologies we use is [MySQL](https://en.wikipedia.org/wiki
 
 *(If you're feeling rusty, then check out sections 2, 3, 4, 5 & 6 of [this tutorial](http://www.mysqltutorial.org/basic-mysql-tutorial.aspx))*
 
-Rover the Labrador has been in touch about his food and said he prefers chicken to beef, and would like a chicken-based blend rather than his current beef-based one. We've been looking for all of our Labradors that are called Rover, to find out what blends they're on right now, but we're getting a syntax error. Can you correct the query so that it should work?
+Rover the Labrador has been in touch about his food and said he prefers chicken to beef, and would like a chicken-based blend rather than his current beef-based one. We've been looking for all of our Labradors that are called Rover, to find out what blends they're on right now, but we're getting a syntax error. Can you correct the query so that it works and then sort the answers by their `most_recent_blend_date` so that dogs who've had a blend more recently appear at the top?
 
 ```sql
 SELECT
@@ -49,4 +57,7 @@ WHERE dog.dog_name = 'Rover'
 WHERE dog.breed = 'Labrador'
 GROUP BY dog_name, breed, signup_date, flavour
 ```
-Can you correct the query so that it works? For bonus points, can you sort the results by their "most recent blend date" so that dogs who've had a blend more recently appear at the top?
+
+**Extension questions** - *these are if you want to show off your skills and are not required, so only do these if it took you less than 5 minutes to do the first part, and don't spend more than 20 minutes on them*.
+- We're interested in when customers change their favourite flavour. Write a query which will find the `flavour` and `order_date` for any blends which had a different `flavour` to the previous blend for that pet. Restrict your answer to pets with a `dog_id` less than 100.
+- Take the query you've just written and adapt it to display which flavour changes (i.e. combination of the `flavour` before the change and the `flavour` after the change) are most common.
