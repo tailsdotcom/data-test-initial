@@ -28,12 +28,13 @@ Our food team has developed a new kind of super secret treat which we think all 
 
 Construct a visual (table, graphic or chart) of your choosing to interpret these results and suggest what we should conclude from the results. Think about:
 
-- Do we have enough data to make a decision about which treat works best? What do you recommend we do in July and why?
+- Do we have enough data to make a decision about which treat works best?*
+- What do you recommend we do in July and why?
 - What assumptions have you made and how would you confirm those assumptions if you needed to?
 - How would you go about working out what happened in April?
 - Waht feedback would you give the team about how they carried out this test?
 
-*(If you're feeling rusty on how to work out whether we've seen enough data yet then check out [this excellent article on A/B testing statistics](https://conversionsciences.com/blog/ab-testing-statistics/), or [this very visual calculator](https://abtestguide.com/calc/))*
+*\*(If you're feeling rusty on how to work out whether we've seen enough data yet then check out [this excellent article on A/B testing statistics](https://conversionsciences.com/blog/ab-testing-statistics/), or [this very visual calculator](https://abtestguide.com/calc/))*
 
 ## Challenge 3: _Rover the Labrador_
 
