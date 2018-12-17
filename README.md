@@ -4,16 +4,13 @@ Thank you for taking the time to complete our initial set of challenges. These a
 
 Feel free to spend as much or as little time as you'd like, however bear in mind that the purpose of this is just to get a handle on your skill level and start a conversation so be pragmatic in how much time you spend. As a guidline, 20 minutes should be the most time it would be sensible to spend, and you may find you can answer some questions very quickly.
 
-## Challenge 1: _Fetch_
+## Challenge 1: _Om Nom Nom_
 
-Recently we surveyed some of the dogs in our office and threw a tennis ball, some of them chased it and some of them just rolled over. The results are in the graph below.
+Recently we surveyed some of the dogs in our office (25 Labradors and 25 Spaniels) for how tasty they thought two of our ingredients were (Chicken and Fish). The taste score is a highly scientific measure developed by our nutrition team. We looked at the average scores, both overall and by breed and the results were confusing...
 
-![Challenge Picture](https://github.com/tailsdotcom/data-test-initial/blob/master/180810-OnlineGraph.PNG "Chase % for Office Dog Breeds")
+![Challenge Picture](https://github.com/tailsdotcom/data-test-initial/blob/master/181217-TasteScores.png "Taste Scores")
 
-Our behavioural team want to understand what this graph shows. What can you conclude from the graph? Think about:
-- Who chases the ball most often?
-- What's up with chihuahuas?
-- What can we conclude about how easy it is to train different dogs? What are the risks or assumptions you've made in that conclusion.
+What should we conclude from these results?
 
 ## Challenge 2: _Super secret treat_
 
